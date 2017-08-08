@@ -98,7 +98,9 @@ var alsoMe={
 //Now, loop through your object and alert every value. *Tyler --> 24 --> 6'0 --> Male, etc etc
 
   //Code Here
-
+for (firstMe in alsoMe){
+  alert(alsoMe[firstMe]);
+}
 
 
 
@@ -110,7 +112,9 @@ var alsoMe={
 //Create an Object called 'album' with 5 keys named different song titles that you make up, with the values being the length of each song.
 
   //Code Here
-
+var album ={
+  
+}
 //Now, loop through your album object alerting every song title individually.
 
   //Code Here
