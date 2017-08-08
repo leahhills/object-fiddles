@@ -47,8 +47,11 @@ favoriteThings.book ="Harry Potter";
 console.log(favoriteThings);
 
 //NEXT PROBLEM
+var backPack={
 
-
+};
+var item="firstPocket";
+backPack[item]="chapstick";
 
 /*Create an empty Object called backPack. Now, create a variable called 'item'
 and set it equal to the string 'firstPocket'. Using bracket notation,
@@ -59,6 +62,7 @@ Using dot notation, add another key (or property) to your backPack object
 that is named color, with the value being the color of your backpack. */
 
   //Code here
+backPack.color = "purple";
 
 //After you do the above, alert your entire backPack object.
 
