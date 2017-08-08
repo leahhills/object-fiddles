@@ -113,13 +113,20 @@ for (firstMe in alsoMe){
 
   //Code Here
 var album ={
-  
+  whatdoyouknow:"I know it all",
+  yep:"pep",
+  blip:"trip",
+  sniff:"whiff",
+  whatever:"because!"
+
 }
 //Now, loop through your album object alerting every song title individually.
 
   //Code Here
 
-
+for(niceAlbum in album){
+alert(album[niceAlbum]);
+}
 
 
 //NEXT PROBLEM
@@ -130,7 +137,13 @@ var album ={
 //Create an object called states that has 5 US states as properties with the values being their population (doesn't have to be accurate).
 
   //Code Here
-
+var states= {
+  utah:500000,
+  washington:444444444,
+  nevada:3,
+  massachusetts:8,
+  california:700,
+};
 //Now, loop through your states object and if the states population is greater than 30K, alert that state.
 
   //Code Here
