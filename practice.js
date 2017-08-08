@@ -65,7 +65,8 @@ that is named color, with the value being the color of your backpack. */
 backPack.color = "purple";
 
 //After you do the above, alert your entire backPack object.
-
+var lookatBackPack=backPack;
+alert(lookatBackPack);
   //Code here
 
 /*You probably noticed that it just alerted [object Object].
@@ -73,8 +74,7 @@ Alerting to see the data in your Object doesn't work so well.
 Instead, console.log your whole backPack object and then check out the console. */
 
   //Code here
-
-
+console.log(lookatBackPack);
 
 
 //NEXT PROBLEM
@@ -85,6 +85,15 @@ Instead, console.log your whole backPack object and then check out the console. 
 //Create an 'alsoMe' object with the following properties name, age, height, gender, married, eyeColor, hairColor. Fill those properties in with the appropriate values.
 
   //Code Here
+var alsoMe={
+  name:"Leia",
+  age:30,
+  height:"5.4 feet",
+  gender:"female",
+  married:"yes",
+  eyeColor:"blue",
+  hairColor:"brown"
+};
 
 //Now, loop through your object and alert every value. *Tyler --> 24 --> 6'0 --> Male, etc etc
 
